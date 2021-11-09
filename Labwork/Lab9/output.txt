@@ -1,0 +1,33 @@
+Training data predictions:-
+Predicted value = 1	Actual Value = 1
+Predicted value = 1	Actual Value = 1
+Predicted value = 2	Actual Value = 2
+Predicted value = 2	Actual Value = 2
+Predicted value = 2	Actual Value = 2
+Predicted value = 2	Actual Value = 1
+Predicted value = 2	Actual Value = 2
+Predicted value = 1	Actual Value = 1
+Predicted value = 2	Actual Value = 2
+Predicted value = 2	Actual Value = 2
+Predicted value = 2	Actual Value = 2
+Predicted value = 2	Actual Value = 2
+Predicted value = 2	Actual Value = 2
+Predicted value = 1	Actual Value = 1
+
+Training accuracy= 0.928571
+
+___________________
+
+Test data predictions:-
+Predicted value = 2	Actual value = 1
+Predicted value = 2	Actual value = 2
+Predicted value = 2	Actual value = 2
+
+Test accuracy= 0.666667
+
+___________________
+
+Predictions data:
+Predicted Value = 2
+Predicted Value = 2
+Predicted Value = 2

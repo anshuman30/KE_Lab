@@ -1,0 +1,23 @@
+Minimum support = 2
+FREQUENT ITEMSETS ARE:-
+
+a
+ab
+abd
+ac
+ad
+b
+bc
+bcd
+bcde
+bce
+bd
+bde
+be
+c
+cd
+cde
+ce
+d
+de
+e

@@ -1,0 +1,202 @@
+MINIMUM SUPPORT = 20%
+
+ITEMS SIZE=7 MIN_SUP=1
+MIN_CONFIDENCE = 0.5
+
+FREQUENT ITEMSET: I1I2 :- 3
+ASSOCIATION RULES:-
+I2 => I1				confidence = 0.75
+I1 => I2				confidence = 1
+FREQUENT ITEMSET: I1I3 :- 2
+ASSOCIATION RULES:-
+I3 => I1				confidence = 0.666667
+I1 => I3				confidence = 0.666667
+FREQUENT ITEMSET: I1I4 :- 1
+ASSOCIATION RULES:-
+I4 => I1				confidence = 0.5
+FREQUENT ITEMSET: I1I5 :- 1
+ASSOCIATION RULES:-
+I5 => I1				confidence = 0.5
+FREQUENT ITEMSET: I1I6 :- 1
+ASSOCIATION RULES:-
+I6 => I1				confidence = 0.5
+FREQUENT ITEMSET: I2I3 :- 2
+ASSOCIATION RULES:-
+I3 => I2				confidence = 0.666667
+I2 => I3				confidence = 0.5
+FREQUENT ITEMSET: I2I4 :- 1
+ASSOCIATION RULES:-
+I4 => I2				confidence = 0.5
+FREQUENT ITEMSET: I2I5 :- 2
+ASSOCIATION RULES:-
+I5 => I2				confidence = 1
+I2 => I5				confidence = 0.5
+FREQUENT ITEMSET: I2I6 :- 2
+ASSOCIATION RULES:-
+I6 => I2				confidence = 1
+I2 => I6				confidence = 0.5
+FREQUENT ITEMSET: I3I4 :- 2
+ASSOCIATION RULES:-
+I4 => I3				confidence = 1
+I3 => I4				confidence = 0.666667
+FREQUENT ITEMSET: I3I7 :- 1
+ASSOCIATION RULES:-
+I7 => I3				confidence = 1
+FREQUENT ITEMSET: I4I7 :- 1
+ASSOCIATION RULES:-
+I7 => I4				confidence = 1
+I4 => I7				confidence = 0.5
+FREQUENT ITEMSET: I5I6 :- 2
+ASSOCIATION RULES:-
+I6 => I5				confidence = 1
+I5 => I6				confidence = 1
+FREQUENT ITEMSET: I1I2I3 :- 2
+ASSOCIATION RULES:-
+I3 => I1I2				confidence = 0.666667
+I2 => I1I3				confidence = 0.5
+I2I3 => I1				confidence = 1
+I1 => I2I3				confidence = 0.666667
+I1I3 => I2				confidence = 1
+I1I2 => I3				confidence = 0.666667
+FREQUENT ITEMSET: I1I2I4 :- 1
+ASSOCIATION RULES:-
+I4 => I1I2				confidence = 0.5
+I2I4 => I1				confidence = 1
+I1I4 => I2				confidence = 1
+FREQUENT ITEMSET: I1I2I5 :- 1
+ASSOCIATION RULES:-
+I5 => I1I2				confidence = 0.5
+I2I5 => I1				confidence = 0.5
+I1I5 => I2				confidence = 1
+FREQUENT ITEMSET: I1I2I6 :- 1
+ASSOCIATION RULES:-
+I6 => I1I2				confidence = 0.5
+I2I6 => I1				confidence = 0.5
+I1I6 => I2				confidence = 1
+FREQUENT ITEMSET: I1I3I4 :- 1
+ASSOCIATION RULES:-
+I4 => I1I3				confidence = 0.5
+I3I4 => I1				confidence = 0.5
+I1I4 => I3				confidence = 1
+I1I3 => I4				confidence = 0.5
+FREQUENT ITEMSET: I1I5I6 :- 1
+ASSOCIATION RULES:-
+I6 => I1I5				confidence = 0.5
+I5 => I1I6				confidence = 0.5
+I5I6 => I1				confidence = 0.5
+I1I6 => I5				confidence = 1
+I1I5 => I6				confidence = 1
+FREQUENT ITEMSET: I2I3I4 :- 1
+ASSOCIATION RULES:-
+I4 => I2I3				confidence = 0.5
+I3I4 => I2				confidence = 0.5
+I2I4 => I3				confidence = 1
+I2I3 => I4				confidence = 0.5
+FREQUENT ITEMSET: I2I5I6 :- 2
+ASSOCIATION RULES:-
+I6 => I2I5				confidence = 1
+I5 => I2I6				confidence = 1
+I5I6 => I2				confidence = 1
+I2 => I5I6				confidence = 0.5
+I2I6 => I5				confidence = 1
+I2I5 => I6				confidence = 1
+FREQUENT ITEMSET: I3I4I7 :- 1
+ASSOCIATION RULES:-
+I7 => I3I4				confidence = 1
+I4 => I3I7				confidence = 0.5
+I4I7 => I3				confidence = 1
+I3I7 => I4				confidence = 1
+I3I4 => I7				confidence = 0.5
+FREQUENT ITEMSET: I1I2I3I4 :- 1
+ASSOCIATION RULES:-
+I4 => I1I2I3				confidence = 0.5
+I3I4 => I1I2				confidence = 0.5
+I2I4 => I1I3				confidence = 1
+I2I3 => I1I4				confidence = 0.5
+I2I3I4 => I1				confidence = 1
+I1I4 => I2I3				confidence = 1
+I1I3 => I2I4				confidence = 0.5
+I1I3I4 => I2				confidence = 1
+I1I2I4 => I3				confidence = 1
+I1I2I3 => I4				confidence = 0.5
+FREQUENT ITEMSET: I1I2I5I6 :- 1
+ASSOCIATION RULES:-
+I6 => I1I2I5				confidence = 0.5
+I5 => I1I2I6				confidence = 0.5
+I5I6 => I1I2				confidence = 0.5
+I2I6 => I1I5				confidence = 0.5
+I2I5 => I1I6				confidence = 0.5
+I2I5I6 => I1				confidence = 0.5
+I1I6 => I2I5				confidence = 1
+I1I5 => I2I6				confidence = 1
+I1I5I6 => I2				confidence = 1
+I1I2I6 => I5				confidence = 1
+I1I2I5 => I6				confidence = 1
+
+
+---------------------------------------------
+
+
+MINIMUM SUPPORT = 30%
+
+ITEMS SIZE=7 MIN_SUP=2
+MIN_CONFIDENCE = 0.5
+
+FREQUENT ITEMSET: I1I2 :- 3
+ASSOCIATION RULES:-
+I2 => I1				confidence = 0.75
+I1 => I2				confidence = 1
+FREQUENT ITEMSET: I1I3 :- 2
+ASSOCIATION RULES:-
+I3 => I1				confidence = 0.666667
+I1 => I3				confidence = 0.666667
+FREQUENT ITEMSET: I2I3 :- 2
+ASSOCIATION RULES:-
+I3 => I2				confidence = 0.666667
+I2 => I3				confidence = 0.5
+FREQUENT ITEMSET: I2I5 :- 2
+ASSOCIATION RULES:-
+I5 => I2				confidence = 1
+I2 => I5				confidence = 0.5
+FREQUENT ITEMSET: I2I6 :- 2
+ASSOCIATION RULES:-
+I6 => I2				confidence = 1
+I2 => I6				confidence = 0.5
+FREQUENT ITEMSET: I3I4 :- 2
+ASSOCIATION RULES:-
+I4 => I3				confidence = 1
+I3 => I4				confidence = 0.666667
+FREQUENT ITEMSET: I5I6 :- 2
+ASSOCIATION RULES:-
+I6 => I5				confidence = 1
+I5 => I6				confidence = 1
+FREQUENT ITEMSET: I1I2I3 :- 2
+ASSOCIATION RULES:-
+I3 => I1I2				confidence = 0.666667
+I2 => I1I3				confidence = 0.5
+I2I3 => I1				confidence = 1
+I1 => I2I3				confidence = 0.666667
+I1I3 => I2				confidence = 1
+I1I2 => I3				confidence = 0.666667
+FREQUENT ITEMSET: I2I5I6 :- 2
+ASSOCIATION RULES:-
+I6 => I2I5				confidence = 1
+I5 => I2I6				confidence = 1
+I5I6 => I2				confidence = 1
+I2 => I5I6				confidence = 0.5
+I2I6 => I5				confidence = 1
+I2I5 => I6				confidence = 1
+
+
+---------------------------------------------
+
+
+MINIMUM SUPPORT = 50%
+
+ITEMS SIZE=7 MIN_SUP=3
+MIN_CONFIDENCE = 0.5
+
+FREQUENT ITEMSET: I1I2 :- 3
+ASSOCIATION RULES:-
+I2 => I1				confidence = 0.75
+I1 => I2				confidence = 1

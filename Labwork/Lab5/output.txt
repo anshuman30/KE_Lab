@@ -1,0 +1,26 @@
+MINIMUM SUPPORT = 50%
+
+ITEMS SIZE = 7 TRANSACTIONS SIZE = 6
+MIN_SUP=3
+MIN_CONFIDENCE = 0.5
+
+FREQUENT ITEMSET: I1I2 :- 4
+ASSOCIATION RULES:-
+I2 => I1				confidence = 0.8
+I1 => I2				confidence = 1
+FREQUENT ITEMSET: I1I3 :- 3
+ASSOCIATION RULES:-
+I3 => I1				confidence = 0.75
+I1 => I3				confidence = 0.75
+FREQUENT ITEMSET: I2I3 :- 3
+ASSOCIATION RULES:-
+I3 => I2				confidence = 0.75
+I2 => I3				confidence = 0.6
+FREQUENT ITEMSET: I1I2I3 :- 3
+ASSOCIATION RULES:-
+I3 => I1I2				confidence = 0.75
+I2 => I1I3				confidence = 0.6
+I2I3 => I1				confidence = 1
+I1 => I2I3				confidence = 0.75
+I1I3 => I2				confidence = 1
+I1I2 => I3				confidence = 0.75

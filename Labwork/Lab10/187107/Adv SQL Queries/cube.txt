@@ -1,0 +1,23 @@
+SELECT
+   warehouse,
+   SUM(quantity)
+FROM
+   inventory
+GROUP BY
+   CUBE(warehouse)
+ORDER BY
+   warehouse;  
+   
+   
+   
+SELECT
+   warehouse,
+   product,
+   SUM(quantity)
+FROM
+   inventory
+GROUP BY
+   CUBE(warehouse,product)
+ORDER BY
+   warehouse,
+   product;

@@ -1,0 +1,9 @@
+insert into database values ('Andhra','Vizag','December',25);
+insert into database values ('Andhra','Kurnool','December',25);
+insert into database values ('Telangana','Hyderabad','October',30);
+insert into database values ('Telangana','Warangal','November',25);
+insert into database values ('Odisha','Bhubaneshwar','May',35);
+insert into database values ('Odisha','Puri','November',25);
+insert into database values ('Odisha','CityX','October',28);
+insert into database values ('Tamil Nadu','Chennai','December',25);
+insert into database values ('Tamil Nadu','Trichy','November',28);

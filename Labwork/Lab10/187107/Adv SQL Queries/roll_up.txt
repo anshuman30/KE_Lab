@@ -1,0 +1,13 @@
+SELECT 
+    warehouse, SUM(quantity)
+FROM
+    inventory
+GROUP BY ROLLUP (warehouse);
+
+
+
+SELECT 
+    warehouse, product, SUM(quantity)
+FROM
+    inventory
+GROUP BY ROLLUP (warehouse , product);

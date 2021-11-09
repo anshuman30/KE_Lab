@@ -1,0 +1,67 @@
+SELECT
+   warehouse,
+   SUM(quantity)
+FROM
+   inventory
+GROUP BY
+   CUBE(warehouse)
+ORDER BY
+   warehouse;  
+   
+   
+   
+SELECT
+   warehouse,
+   product,
+   SUM(quantity)
+FROM
+   inventory
+GROUP BY
+   CUBE(warehouse,product)
+ORDER BY
+   warehouse,
+   product;
+   
+   
+   SELECT
+    warehouse,
+    product, 
+    SUM (quantity) qty
+FROM
+    inventory
+GROUP BY
+    GROUPING SETS(
+        (warehouse,product),
+        (warehouse),
+        (product),
+        ()
+    );
+    
+    
+SELECT
+    warehouse,
+    product, 
+    SUM (quantity) qty
+FROM
+    inventory
+GROUP BY
+    GROUPING SETS(
+        (warehouse),
+        ()
+    );
+    
+    
+    
+    SELECT 
+    warehouse, SUM(quantity)
+FROM
+    inventory
+GROUP BY ROLLUP (warehouse);
+
+
+
+SELECT 
+    warehouse, product, SUM(quantity)
+FROM
+    inventory
+GROUP BY ROLLUP (warehouse , product);

@@ -1,0 +1,132 @@
+min_sup = 2
+
+____________________________________________________
+
+count of all items after 1 scan:
+a :- 9
+b :- 9
+c :- 6
+d :- 12
+e :- 8
+f :- 6
+g :- 10
+h :- 6
+i :- 7
+
+___________________________________________________
+
+sorted itemsets transaction wise:
+g e h 
+g b a f 
+d b e i c 
+g a i 
+d b a h 
+g b i 
+d e f c 
+d a e i 
+g b 
+d a e f 
+g b c 
+d a h f 
+d a e i c 
+d g h 
+g b 
+d a e c 
+d b i f 
+d g a h 
+g e i h c 
+d b f 
+
+___________________________________________________
+
+Level order representation of the fp-tree:
+{}:0 
+g:8 d:12 
+e:2 b:5 a:1 b:4 e:1 a:5 g:2 
+h:1 i:1 a:1 i:1 c:1 i:1 e:1 a:1 i:1 f:1 f:1 e:4 h:1 h:1 a:1 
+h:1 f:1 i:1 h:1 f:1 c:1 i:2 f:1 c:1 f:1 h:1 
+c:1 c:1 c:1 
+___________________________________________________
+
+
+
+CONDITIONAL FP-TREES AND THEIR CORRESPONDING FREQUENT ITEMSETS ARE SHOWN BELOW:-
+
+Item: a
+Level order representation of the fp-tree:
+{}:0 
+g:2 d:7 
+b:1 b:1 g:1 
+FREQUENT ITEMSETS FROM THE ABOVE TREE:-
+d a : 7
+
+_________________________________________________________
+Item: b
+Level order representation of the fp-tree:
+{}:0 
+g:5 d:4 
+FREQUENT ITEMSETS FROM THE ABOVE TREE:-
+g b : 5
+
+_________________________________________________________
+Item: c
+Level order representation of the fp-tree:
+{}:0 
+g:2 d:4 
+e:1 b:1 b:1 e:1 a:2 
+i:1 e:1 f:1 e:2 
+h:1 i:1 i:1 
+FREQUENT ITEMSETS FROM THE ABOVE TREE:-
+e c : 5
+
+_________________________________________________________
+Item: d
+Level order representation of the fp-tree:
+{}:0 
+FREQUENT ITEMSETS FROM THE ABOVE TREE:-
+
+_________________________________________________________
+Item: e
+Level order representation of the fp-tree:
+{}:0 
+g:2 d:6 
+b:1 a:4 
+FREQUENT ITEMSETS FROM THE ABOVE TREE:-
+d e : 6
+
+_________________________________________________________
+Item: f
+Level order representation of the fp-tree:
+{}:0 
+g:1 d:5 
+a:1 b:2 e:1 a:2 
+b:1 i:1 e:1 h:1 
+FREQUENT ITEMSETS FROM THE ABOVE TREE:-
+d f : 5
+
+_________________________________________________________
+Item: g
+Level order representation of the fp-tree:
+{}:0 
+d:2 
+FREQUENT ITEMSETS FROM THE ABOVE TREE:-
+
+_________________________________________________________
+Item: h
+Level order representation of the fp-tree:
+{}:0 
+g:2 d:4 
+e:2 a:2 g:2 
+i:1 b:1 a:1 
+FREQUENT ITEMSETS FROM THE ABOVE TREE:-
+
+_________________________________________________________
+Item: i
+Level order representation of the fp-tree:
+{}:0 
+g:3 d:4 
+e:1 b:1 a:1 b:2 a:2 
+e:1 e:2 
+FREQUENT ITEMSETS FROM THE ABOVE TREE:-
+
+_________________________________________________________

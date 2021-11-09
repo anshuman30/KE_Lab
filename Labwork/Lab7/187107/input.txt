@@ -1,0 +1,20 @@
+T1 e g h
+T2 a b f g
+T3 b c d e i
+T4 a g i
+T5 a b d h
+T6 b g i
+T7 c d e f
+T8 a d e i
+T9 b g
+T10 a d e f
+T11 b c g
+T12 a d f h
+T13 a c d e i
+T14 d g h
+T15 g b
+T16 a c d e
+T17 b d f i
+T18 a d g h
+T19 c e g h i
+T20 b d f

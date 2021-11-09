@@ -1,0 +1,55 @@
+All tuples of the database along with class labels as the last column value:-
+1 1 1 1 1 
+1 1 1 2 2 
+1 1 2 1 2 
+1 1 2 2 1 
+1 2 1 1 2 
+1 2 1 2 1 
+1 2 2 1 1 
+1 2 2 2 2 
+2 1 1 1 2 
+2 1 1 2 1 
+2 1 2 1 1 
+2 1 2 2 2 
+2 2 1 1 1 
+2 2 1 2 2 
+2 2 2 1 2 
+2 2 2 2 1 
+__________________________________________________
+
+0
+0
+0
+0
+0
+0
+0
+Test data results
+Predicted class: -1	Actual class: 1
+Predicted class: 1	Actual class: 2
+Predicted class: 2	Actual class: 2
+Test accuracy=	0.333333
+
+Training data results
+Predicted class: 1	Actual class: 1
+Predicted class: 1	Actual class: 2
+Predicted class: 1	Actual class: 2
+Predicted class: 1	Actual class: 1
+Predicted class: 1	Actual class: 2
+Predicted class: 1	Actual class: 1
+Predicted class: 1	Actual class: 1
+Predicted class: 1	Actual class: 2
+Predicted class: 2	Actual class: 2
+Predicted class: 2	Actual class: 1
+Predicted class: 2	Actual class: 1
+Predicted class: 2	Actual class: 2
+Predicted class: 2	Actual class: 1
+Predicted class: 2	Actual class: 2
+Predicted class: 2	Actual class: 2
+Predicted class: 2	Actual class: 1
+Training accuracy=	0.5
+
+Prediction results
+-1
+1
+2

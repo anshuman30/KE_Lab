@@ -1,0 +1,10 @@
+Radius for each point (e): 3 Minimum no of points (min_pts): 2
+
+Object name: A1 : 0 (2,10)
+Object name: C2 : 0 (4,9)
+Object name: B1 : 0 (5,8)
+Object name: A2 : *noise*  (2,5)
+Object name: A3 : 1 (8,4)
+Object name: B2 : 1 (7,5)
+Object name: B3 : 1 (6,4)
+Object name: C1 : *noise*  (1,2)
